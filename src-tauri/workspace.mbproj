@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "theme": "light",
+  "fontSize": 13,
+  "transportMode": "RTU",
+  "tcpHost": "127.0.0.1",
+  "tcpPort": 502,
+  "rtuPort": "COM4",
+  "rtuBaud": 9600,
+  "rtuParity": "N",
+  "timeoutMs": 1000,
+  "pollWindows": [
+    {
+      "id": "win-1",
+      "title": "Poll #1",
+      "slaveId": 1,
+      "functionCode": 3,
+      "startAddress": 0,
+      "quantity": 10,
+      "scanRateMs": 1000,
+      "addressBase": 0,
+      "plcAddressing": true,
+      "displayFormat": "Signed",
+      "wordOrder": "AB CD",
+      "rows": [
+        {
+          "address": 0,
+          "alias": ""
+        },
+        {
+          "address": 1,
+          "alias": ""
+        },
+        {
+          "address": 2,
+          "alias": ""
+        },
+        {
+          "address": 3,
+          "alias": ""
+        },
+        {
+          "address": 4,
+          "alias": ""
+        },
+        {
+          "address": 5,
+          "alias": ""
+        },
+        {
+          "address": 6,
+          "alias": ""
+        },
+        {
+          "address": 7,
+          "alias": ""
+        },
+        {
+          "address": 8,
+          "alias": ""
+        },
+        {
+          "address": 9,
+          "alias": ""
+        }
+      ]
+    }
+  ]
+}
